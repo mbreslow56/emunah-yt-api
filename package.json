@@ -1,0 +1,19 @@
+{
+  "name": "emunah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbreslow56/emunah.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbreslow56/emunah/issues"
+  },
+  "homepage": "https://github.com/mbreslow56/emunah#readme"
+}
