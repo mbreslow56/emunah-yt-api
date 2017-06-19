@@ -1,6 +1,6 @@
 app.controller('emCtrl', function($scope, emService){
   $scope.getAllPlayLists = function() {
-    emService.getAllPlayLists().then(function(err, data){
+    emService.getAllPlayLists().then(function(data, err){
       if (err) {
         console.error("controller error fetching playlists", err);
       } else {
@@ -10,6 +10,7 @@ app.controller('emCtrl', function($scope, emService){
     }//function
   )//callback
 }//getallplaylists
+
 $scope.getAllPlayLists();
 
 });//controller
